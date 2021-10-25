@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<style type="text/css">
+.slider {
+    height:244px;
+	width:  254px;
+	margin: auto;
+	overflow: hidden;
+	background-color: #7066FA;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 200%;
+	
+	animation: cambio 5s infinite alternate linear;
+}
+
+.slider li {
+	width:70%;
+	list-style: none;
+}
+
+.slider img {
+	/*width: 50%;*/
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	10% {margin-left: 0;}
+	
+	15% {margin-left: -100%;}
+	25% {margin-left: -100%;}
+	
+	30% {margin-left: -200%;}
+	60% {margin-left: -200%;}
+	
+	65% {margin-left: -300%;}
+	75% {margin-left: -300%;}
+
+	80% {margin-left: -390%;}
+	100% {margin-left: -390%;}
+}
+</style>
+<body>
+ <div class="slider">
+			<ul>
+				<li>
+  <img src="gif/TAXICLIENTES.gif" alt="">
+ </li>
+				<li>
+  <img src="gif/taxiconfianza.gif" alt="">
+</li>
+				<li>
+  <img src="gif/TAXIGPS.gif" alt="">
+</li>
+				<li>
+  <img src="gif/TAXISEGURIDAD.gif" alt="">
+</li>
+                <li>
+  <img src="gif/TAXISOLICITUD.gif" alt="">
+</li>
+			</ul>
+		</div>
+
+</body>
+</html>
